@@ -5,4 +5,4 @@ set -e
 docker pull srinivasandhatchinamoorthy/mypythonapp
 
 #Run the Docker image as a container
-docker run -d --name mypythoncontainer -p 5000:5000 srinivasandhatchinamoorthy/mypythonapp
+docker run -d --name mypythoncontainer1 -p 5001:5000 srinivasandhatchinamoorthy/mypythonapp
